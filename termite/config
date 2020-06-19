@@ -1,12 +1,12 @@
 [options]
-#allow_bold = true
-#audible_bell = false
+allow_bold = true
+audible_bell = false
 bold_is_bright = true
 #cell_height_scale = 1.0
 #cell_width_scale = 1.0
-clickable_url = true
+#clickable_url = true
 #dynamic_title = true
-font = Hack 11
+font = InconsolataLGC Nerd Font Mono 10
 #fullscreen = true
 #icon_name = terminal
 #mouse_autohide = false
@@ -15,18 +15,18 @@ font = Hack 11
 # Length of the scrollback buffer, 0 disabled the scrollback buffer
 # and setting it to a negative value means "infinite scrollback"
 scrollback_lines = 10000
-search_wrap = true
+#search_wrap = true
 #urgent_on_bell = true
-#hyperlinks = false
+hyperlinks = false
 
 # $BROWSER is used by default if set, with xdg-open as a fallback
-browser = xdg-open
+#browser = xdg-open
 
 # "system", "on" or "off"
-cursor_blink = on
+#cursor_blink = system
 
 # "block", "underline" or "ibeam"
-cursor_shape = block
+#cursor_shape = block
 
 # Hide links that are no longer valid in url select overlay mode
 #filter_unmatched_urls = true
@@ -51,96 +51,33 @@ cursor_shape = block
 #background = #3f3f3f
 
 # 20% background transparency (requires a compositor)
-#background = rgba(63, 63, 63, 0.8)
+background = rgba(0, 0, 0, 0.4)
 
 # If unset, will reverse foreground and background
-#highlight = #2f2f2f
+highlight = #2f2f2f
 
 # Colors from color0 to color254 can be set
-#[colors]
-#
-## special
-#foreground      = #ffffff
-#foreground_bold = #ffffff
-#cursor          = #ffffff
-#background      = rgba(0, 0, 0, 0.6)
-#
-## black
-#color0  = #1e2320
-#color8  = #709080
-#
-## red
-#color1  = #705050
-#color9  = #dca3a3
-#
-## green
-#color2  = #60b48a
-#color10 = #c3bf9f
-#
-## yellow
-#color3  = #dfaf8f
-#color11 = #f0dfaf
-#
-## blue
-#color4  = #506070
-#color12 = #94bff3
-#
-## magenta
-#color5  = #dc8cc3
-#color13 = #ec93d3
-#
-## cyan
-#color6  = #8cd0d3
-#color14 = #93e0e3
-#
-## white
-#color7  = #dcdccc
-#color15 = #ffffff
-[colors]
-
-# special
-foreground      = #d5e1eb
-foreground_bold = #d5e1eb
-cursor          = #d5e1eb
-background      = rgba(01, 02, 03, 0.7)
-
-# black
-color0  = #030405
-color8  = #db95ab
-
-# red
-color1  = #0e1417
-color9  = #b1643e
-
-# green
-color2  = #377dab
-color10 = #449e89
-
-# yellow
-color3  = #5491a4
-color11 = #8ec2e2
-
-# blue
-color4  = #6656a4
-color12 = #5eb261
-
-# magenta
-color5  = #6e8697
-color13 = #31947e
-
-# cyan
-color6  = #94b4c9
-color14 = #de9bb0
-
-# white
-color7  = #71b3e9
-color15 = #f0bd82
-
+color0 = #3f3f3f
+color1 = #705050
+color2 = #60b48a
+color3 = #dfaf8f
+color4 = #506070
+color5 = #dc8cc3
+color6 = #8cd0d3
+color7 = #dcdccc
+color8 = #709080
+color9 = #dca3a3
+color10 = #c3bf9f
+color11 = #f0dfaf
+color12 = #94bff3
+color13 = #ec93d3
+color14 = #93e0e3
+color15 = #ffffff
 
 [hints]
 #font = Monospace 12
 #foreground = #dcdccc
-#background = #3f3f3f
+#background = rgba(0, 0, 0, 0.5)
 #active_foreground = #e68080
 #active_background = #3f3f3f
 #padding = 2
