@@ -1,0 +1,17 @@
+balena-etcher
+bash-pipes
+brave-bin
+colorpicker
+cpufetch-git
+gnome-color-manager-git
+nerd-fonts-complete
+polify
+polybar-git
+qt-virt-manager
+qtemu-git
+rofi-dmenu
+rofi-git
+sutils-git
+visual-studio-code-bin
+xtitle-git
+yay
