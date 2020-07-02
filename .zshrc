@@ -70,6 +70,7 @@ alias wttr='curl wttr.in'
 alias moon='curl wttr.in/moon'
 alias myip='curl ifconfig.co/city'
 alias getnews='curl getnews.tech'
+alias feh="devour feh -D 4 -B -x -."
 
 # Theming section  
 autoload -U compinit colors zcalc

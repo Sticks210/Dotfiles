@@ -53,7 +53,7 @@ font-0 = "Literation Nerd Font:size=10:antialias=true;2"
 font-1 = "unifont:fontformat=truetype:size=8:antialias=false;0"
 
 modules-left = bspwm
-modules-right = xbacklight pulseaudio memory cpu wlan eth battery date
+modules-right = xbacklight pulseaudio memory cpu battery date time wlan eth
 
 tray-position = right
 tray-padding = 0
@@ -120,24 +120,33 @@ type = internal/network
 interface = wlp3s0
 interval = 3.0
 
-format-connected-prefix = "WLAN: "
-format-connected-prefix-foreground = ${colors.secondary}
+;format-connected-prefix = "WLAN: "
+;format-connected-prefix-foreground = ${colors.secondary}
 format-connected = <label-connected>
-format-connected-font=0
-label-connected = %essid% %local_ip%
+format-connected-font = 0
+label-connected = %local_ip%
 
 [module/eth]
 type = internal/network
 interface = enp2s0
 interval = 3.0
 
+format-connected = <label-connected>
+format-connected-font = 0
+label-connected = %local_ip%
+
 [module/date]
 type = internal/date
-interval = 5
+interval = 100
 date = "%d-%m-%Y"
+label = %date%
+
+[module/time]
+type = internal/date
+interval = 15
 time = %H:%M
-format-prefix-foreground = ${colors.foreground-alt}
-label = %date% %time%
+label = %time%
+label-time-foreground = ${colors.secondary}
 
 [module/pulseaudio]
 type = internal/pulseaudio

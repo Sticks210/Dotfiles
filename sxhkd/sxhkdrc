@@ -10,6 +10,14 @@ super + Return
 super + @space
 	rofi -show run
 
+# launch firefox
+super + F2
+	firefox
+
+# launch pcmanfm
+super + F3
+	pcmanfm
+
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
